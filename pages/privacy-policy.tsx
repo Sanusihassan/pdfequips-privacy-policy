@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Navbar from 'pdfequips-navbar';
-import { Content } from './Content';
+import { Content } from '../components/Content';
 
 const PrivacyPolicy: NextPage = () => {
     return (
@@ -10,5 +10,6 @@ const PrivacyPolicy: NextPage = () => {
         </div>
     );
 };
+
 
 export default PrivacyPolicy;
