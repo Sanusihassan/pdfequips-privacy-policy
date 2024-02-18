@@ -9,9 +9,7 @@ export const Content = () => {
         </p>
         <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the
           collection
-          and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the
-          help of the <a href="https://www.freeprivacypolicy.com/free-privacy-policy-generator/" target="_blank">Free
-            Privacy Policy Generator</a>.</p>
+          and use of information in accordance with this Privacy Policy.</p>
         <h2>Interpretation and Definitions</h2>
         <h3>Interpretation</h3>
         <p>The words of which the initial letter is capitalized have meanings defined under the following conditions.
@@ -136,7 +134,7 @@ export const Content = () => {
           web
           browser. Learn more about cookies on the <a
             href="https://www.freeprivacypolicy.com/blog/sample-privacy-policy-template/#Use_Of_Cookies_And_Tracking"
-            target="_blank">Free Privacy Policy website</a> article.</p>
+            target="_blank">article. </a></p>
         <p>We use both Session and Persistent Cookies for the purposes set out below:</p>
         <ul>
           <li>
