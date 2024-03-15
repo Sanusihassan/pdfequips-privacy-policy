@@ -5,7 +5,7 @@ import { Content } from '../components/Content';
 const PrivacyPolicy: NextPage = () => {
     return (
         <div>
-            <Navbar path='privacy-policy' />
+            <Navbar path='' />
             <Content />
         </div>
     );
