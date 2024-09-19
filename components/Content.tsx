@@ -1,4 +1,12 @@
+import { Footer } from "./Footer"
+
 export const Content = () => {
+  const footer = {
+    brand: "PDFEquips",
+    terms: "terms",
+    conditions: "conditions",
+    privacy_policy: "privacy policy",
+  };
   return (
     <>
       <div className="container">
@@ -341,6 +349,7 @@ export const Content = () => {
         <p>If you have any questions about this Privacy Policy, you can contact us at <a
           href="mailto:contact@pdfequips.com">contact@pdfequips.com</a>.</p>
       </div>
+      <Footer footer={footer} title="privacy policy" />
     </>
   )
 }
