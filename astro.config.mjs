@@ -1,4 +1,9 @@
 import { defineConfig } from 'astro/config';
+import react from '@astrojs/react';
 
-// https://astro.build/config
-export default defineConfig({});
+const isProd = process.env.NODE_ENV === "production";
+
+export default defineConfig({
+    integrations: [react()],
+    base: isProd ? "/privacy-policy" : "/",
+});
