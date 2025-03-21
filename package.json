@@ -13,7 +13,7 @@
     "@astrojs/check": "^0.9.4",
     "astro": "^4.16.13",
     "pdfequips-footer": "^0.1.6",
-    "pdfequips-navbar": "^3.4.3",
+    "pdfequips-navbar": "^3.4.6",
     "typescript": "^5.6.3"
   },
   "devDependencies": {
